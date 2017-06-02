@@ -1,26 +1,41 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-## How to use this template
+Pour installer Ionic :
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+$ npm install -g cordova ionic
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
 
-### With the Ionic CLI:
+Création d'un projet Ionic :
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+$ ionic start + le nom du projet
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
 
-Then, to run it, cd into `myTabs` and run:
+Ajouter la plateforme Android :
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
 
-Substitute ios for android if not on a Mac.
+$ ionic cordova platform add android
 
+
+Pour testé ton application sur Android :
+
+
+$ ionic run android
+
+
+Pour testé ton application en local sur ton ordinateur :
+
+
+$ ionic serve
+
+
+Pour tester l'application veuillez installer ces plugins :
+Attention!! veuillez d'abord installer ces plugins avant de lancer l'applications
+
+ npm install es6-promise
+ npm install --save firebase
+ ionic cordova plugin add cordova-plugin-x-socialsharing
+ npm install --save @ionic-native/social-sharing
+ ionic cordova plugin add cordova-plugin-camera
+ npm install --save @ionic-native/camera
+
+
+ https://ionicframework.com/
